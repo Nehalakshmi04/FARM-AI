@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Arial','cambria';
+}
+body{
+    background-color:#f0f4f8;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding : 20px;
+}
+.auth-forms{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    margin-top:40px;
+}
+.auth-forms input,
+.auth-forms select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border : 3px double #12882b;
+    border-radius : 5px;
+}
+.auth-forms button{
+    width : 100%;
+    padding: 12px;
+    background : #1bc524;
+    color : white;
+    border : groove;
+    border-radius: 5px;
+    cursor : pointer;
+    margin-top: 20px;
+}
